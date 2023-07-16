@@ -1,0 +1,23 @@
+X = 2;
+Y = 4;
+Z = 2;
+T = 2;
+
+Pn = 800; % W
+Va = 101.6; % V
+Im = 8; % A
+wn = 3600; % rpm
+Ra = 0.2; % ohm
+La = 0.004; % H
+Rf = 10; % ohm
+Vf = 10; % V
+tau_a = 0.02; % s
+tau_r = 1; % s
+K = 0.265; % V/A(rad/s)
+ka = 0.8e-3; % Nm/(rad/s)
+J = 8e-2; %¨kg.m²/s²
+g = 10; % m/s²
+r = 0.0105; % m
+m = X;
+P = g*m;
+If=Vf/Rf;
